@@ -1,0 +1,26 @@
+body {
+    background: url('http://usiter.com/uploads/20120429/bezshovnie+teksturi+travi+tekstura+travi+trava+bezshovnie+teksturi+fon+travi+dlya+igr+36942139326.jpg');
+}
+
+.center-row {
+    background: #ffffff7a;
+    border-radius: 0.5em;
+    width: 100%;
+}
+
+.img-wc {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 2%;
+}
+
+.item {
+    background-color: white;
+    border: grey solid 0.5px;
+    border-radius: 0.2em;
+}
+
+.player-list {
+    max-height: 50vh;
+    overflow-y: auto;
+}
