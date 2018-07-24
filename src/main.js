@@ -1,11 +1,10 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
 import routes from './routes'
-
-Vue.use(Vuex)
+import store from './store/store'
 
 const app = new Vue({
   el: '#app',
+  store,
   data: {
     currentRoute: window.location.pathname,
     items: []
